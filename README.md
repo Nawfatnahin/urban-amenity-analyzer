@@ -2,6 +2,8 @@
 
 A powerful spatial analysis web application designed to calculate and visualize walkability metrics and urban accessibility. Built to empower urban planners, researchers, and citizens with data-driven insights into neighborhood infrastructure.
 
+**🌍 Live Website:** [https://Nawfatnahin.github.io/urban-amenity-analyzer](https://Nawfatnahin.github.io/urban-amenity-analyzer)
+
 ![Urban Amenity Analyzer](https://raw.githubusercontent.com/Nawfatnahin/urban-amenity-analyzer/main/public/images/urban_about_bg.png)
 
 ## 🌟 Overview
@@ -16,13 +18,17 @@ Great neighborhoods changing the world deserve a metric as powerful as what they
 * **Modern Web Interface:** Built with Next.js and MapLibre GL for smooth, responsive, and beautiful data visualization.
 * **Global Support:** Search anywhere in the world with automatic English label translations for international accessibility.
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack & Architecture
 
-* **Frontend:** React, Next.js 15, Tailwind CSS
-* **Geospatial & Mapping:** MapLibre GL, react-map-gl, Turf.js
-* **Data Sources:** Overpass API (OpenStreetMap), CartoDB Basemaps
-* **State Management:** React Query (TanStack Query)
-* **Animation:** Framer Motion
+This project is built using modern web technologies and public geographic APIs. **Security Note: The application is entirely client-side and open-source. It does not require any private API keys, secure database credentials, or paid services to run.**
+
+* **Frontend Framework:** **Next.js 15** (React) configured for static export, ensuring blazing-fast load times on GitHub Pages.
+* **Styling & UI:** **Tailwind CSS** for modern, responsive glassmorphism styling, paired with **Framer Motion** for smooth UI transitions and micro-animations.
+* **Geospatial Visualization:** **MapLibre GL JS** and `react-map-gl` render the high-performance WebGL interactive map.
+* **Map Basemaps:** Uses **CartoDB Dark Matter** tiles for a sleek aesthetic that makes data pop, with english labels enforced globally.
+* **Spatial Analysis Engine:** **Turf.js** handles complex geographic calculations, dynamic radius bounding boxes, and distance modeling directly in the browser.
+* **Live Amenity Data:** Queries the public **Overpass API (OpenStreetMap)** to fetch real-time, global locations of schools, hospitals, transit stops, and parks.
+* **State Management:** **React Query (TanStack Query)** manages the asynchronous Overpass API calls, handling caching, error states, and loading overlays seamlessly.
 
 ## 🚦 Getting Started
 
