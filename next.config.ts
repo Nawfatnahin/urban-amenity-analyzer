@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Use export for GitHub Pages, standalone for Cloudflare Workers/Vercel
-  output: process.env.GITHUB_PAGES ? 'export' : 'standalone',
-  // GitHub Pages hosts at subpath, Cloudflare hosts at root
+  // Always static export — no server-side features needed
+  output: 'export',
+  // GitHub Pages needs the repo subpath; Cloudflare serves at root
   basePath: process.env.GITHUB_PAGES ? '/urban-amenity-analyzer' : '',
   images: {
     unoptimized: true,
