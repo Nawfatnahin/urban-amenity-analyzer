@@ -2,7 +2,7 @@
 
 A powerful spatial analysis web application designed to calculate and visualize walkability metrics and urban accessibility. Built to empower urban planners, researchers, and citizens with data-driven insights into neighborhood infrastructure.
 
-**🌍 Live Website:** [[https://Nawfatnahin.github.io/urban-amenity-analyzer](https://Nawfatnahin.github.io/urban-amenity-analyzer)](https://urban-amenity-analyzer.scholar-atlas.workers.dev/)
+**🌍 Live Website:** (https://urban-amenity-analyzer.scholar-atlas.workers.dev/)
 
 ![Urban Amenity Analyzer](https://raw.githubusercontent.com/Nawfatnahin/urban-amenity-analyzer/main/public/images/urban_about_bg.png)
 
