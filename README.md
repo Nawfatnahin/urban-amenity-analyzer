@@ -48,4 +48,4 @@ The app utilizes a specialized methodology to calculate walkability scores:
 3. **Thresholding:** Points are capped within categories to ensure a balanced score, preventing an overabundance of one amenity (e.g., cafes) from masking a lack of another (e.g., healthcare).
 
 ---
-*Maintained under the supervision of JARVIS.*
+
