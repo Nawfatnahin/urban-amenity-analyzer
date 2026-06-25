@@ -6,7 +6,6 @@ This project was developed with the assistance of advanced artificial intelligen
 
 **🌍 Live Website:** - https://urban-amenity-analyzer.scholar-atlas.workers.dev/
 
-![Urban Amenity Analyzer](https://raw.githubusercontent.com/Nawfatnahin/urban-amenity-analyzer/main/public/images/urban_about_bg.png)
 
 ## 🌟 Overview
 
